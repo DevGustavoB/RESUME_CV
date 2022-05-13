@@ -284,6 +284,13 @@ p{
     width: 20px;
 }
 
+@media (max-width: 1100px){
+    .nav-menu{
+        margin-top: -40px;
+        margin-left: 450px;
+    }
+}
+
 @media (max-width: 1000px){
 
     .container{
@@ -298,6 +305,26 @@ p{
     .interest ul{
         grid-template-columns: repeat(2,1fr);
     }
+
+    .nav-menu{
+        margin-top: -40px;
+        margin-left: 770px;
+    }
+}
+
+@media (max-width: 870px){
+    .nav-menu{
+        margin-top: -40px;
+        margin-left: 700px;
+    }
+}
+
+@media (max-width: 670px){
+    .nav-menu{
+        margin-top: -40px;
+        margin-left: 470px;
+    }
+
 }
 
 @media (max-width: 600px){
@@ -320,5 +347,10 @@ p{
 
     .skills .box{
         grid-template-columns: repeat(1,1fr);
+    }
+
+    .nav-menu{
+        margin-top: -40px;
+        margin-left: 380px;
     }
 }
