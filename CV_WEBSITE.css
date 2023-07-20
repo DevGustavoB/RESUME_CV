@@ -166,7 +166,7 @@ margin-left: 1px;
 }
 
 .download-button{
-    margin-top: 200px;
+    margin-top: 550px;
 }
 
 .download-button a{
@@ -306,6 +306,10 @@ p{
     .container{
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
+    }
+
+    .download-button{
+        margin-top: 150px;
     }
 
     .competences ul{
